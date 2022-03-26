@@ -5454,7 +5454,7 @@ To specify the capacitance:&lt;br&gt;
 <bus name="ADC_OUTS:1AIC0,1AIC1,2AIC0,2AIC1,2AIC2,2AIC3,3AIC0,3AIC1,3AIC2,3AIC3,APPLY_TO_ALL">
 <segment>
 <wire x1="-48.26" y1="261.62" x2="180.34" y2="261.62" width="0.762" layer="92"/>
-<label x="66.04" y="147.32" size="1.778" layer="95"/>
+<label x="55.88" y="256.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="220.98" x2="119.38" y2="45.72" width="0.762" layer="92"/>
@@ -5477,10 +5477,11 @@ To specify the capacitance:&lt;br&gt;
 <label x="-358.14" y="129.54" size="6.4516" layer="95"/>
 </segment>
 </bus>
-<bus name="LED_PINS:4,5,6,7,8,9,10,14,15,16,17,18,19,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48">
+<bus name="LED_PINS:4,5,6,14,15,17,18,22,23,25,26,28,29,31,32,34,35,37,38,40,41,43,44,46,47,48">
 <segment>
 <wire x1="58.42" y1="160.02" x2="58.42" y2="91.44" width="0.762" layer="92"/>
 <label x="71.12" y="91.44" size="1.778" layer="95"/>
+<label x="66.04" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="0" y1="114.3" x2="0" y2="99.06" width="0.762" layer="92"/>
@@ -6384,10 +6385,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="157.48" x2="58.42" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-332.74" y1="12.7" x2="-332.74" y2="30.48" width="0.1524" layer="91"/>
-<label x="-335.788" y="17.78" size="1.778" layer="95"/>
-<pinref part="BRAKEPRES" gate="G$1" pin="K_GREEN"/>
-<wire x1="-335.28" y1="12.7" x2="-332.74" y2="12.7" width="0.1524" layer="91"/>
+<label x="-351.028" y="17.78" size="1.778" layer="95"/>
+<wire x1="-347.98" y1="30.48" x2="-347.98" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="BRAKEPRES" gate="G$1" pin="K_BLUE"/>
+<wire x1="-347.98" y1="-30.48" x2="-337.82" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="24" class="0">
@@ -6396,10 +6397,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-302.768" y="17.78" size="1.778" layer="95"/>
-<wire x1="-299.72" y1="30.48" x2="-299.72" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="INTAKEPRES" gate="G$1" pin="K_BLUE"/>
-<wire x1="-299.72" y1="-30.48" x2="-289.56" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-284.48" y1="12.7" x2="-284.48" y2="30.48" width="0.1524" layer="91"/>
+<label x="-287.528" y="17.78" size="1.778" layer="95"/>
+<pinref part="INTAKEPRES" gate="G$1" pin="K_GREEN"/>
+<wire x1="-287.02" y1="12.7" x2="-284.48" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="25" class="0">
@@ -6420,10 +6421,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="149.86" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-284.48" y1="12.7" x2="-284.48" y2="30.48" width="0.1524" layer="91"/>
-<label x="-287.528" y="17.78" size="1.778" layer="95"/>
-<pinref part="INTAKEPRES" gate="G$1" pin="K_GREEN"/>
-<wire x1="-287.02" y1="12.7" x2="-284.48" y2="12.7" width="0.1524" layer="91"/>
+<label x="-302.768" y="17.78" size="1.778" layer="95"/>
+<wire x1="-299.72" y1="30.48" x2="-299.72" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="INTAKEPRES" gate="G$1" pin="K_BLUE"/>
+<wire x1="-299.72" y1="-30.48" x2="-289.56" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="27" class="0">
@@ -6432,10 +6433,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-254.508" y="17.78" size="1.778" layer="95"/>
-<wire x1="-251.46" y1="30.48" x2="-251.46" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="INTAKETEMP" gate="G$1" pin="K_BLUE"/>
-<wire x1="-251.46" y1="-30.48" x2="-241.3" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-236.22" y1="12.7" x2="-236.22" y2="30.48" width="0.1524" layer="91"/>
+<label x="-239.268" y="17.78" size="1.778" layer="95"/>
+<pinref part="INTAKETEMP" gate="G$1" pin="K_GREEN"/>
+<wire x1="-238.76" y1="12.7" x2="-236.22" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="28" class="0">
@@ -6456,10 +6457,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-236.22" y1="12.7" x2="-236.22" y2="30.48" width="0.1524" layer="91"/>
-<label x="-239.268" y="17.78" size="1.778" layer="95"/>
-<pinref part="INTAKETEMP" gate="G$1" pin="K_GREEN"/>
-<wire x1="-238.76" y1="12.7" x2="-236.22" y2="12.7" width="0.1524" layer="91"/>
+<label x="-254.508" y="17.78" size="1.778" layer="95"/>
+<wire x1="-251.46" y1="30.48" x2="-251.46" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="INTAKETEMP" gate="G$1" pin="K_BLUE"/>
+<wire x1="-251.46" y1="-30.48" x2="-241.3" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="30" class="0">
@@ -6468,10 +6469,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-208.788" y="17.78" size="1.778" layer="95"/>
-<pinref part="COOLANTTEMP" gate="G$1" pin="K_BLUE"/>
-<wire x1="-205.74" y1="30.48" x2="-205.74" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-205.74" y1="-30.48" x2="-195.58" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="12.7" x2="-190.5" y2="30.48" width="0.1524" layer="91"/>
+<label x="-193.548" y="17.78" size="1.778" layer="95"/>
+<pinref part="COOLANTTEMP" gate="G$1" pin="K_GREEN"/>
+<wire x1="-193.04" y1="12.7" x2="-190.5" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="31" class="0">
@@ -6492,10 +6493,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-190.5" y1="12.7" x2="-190.5" y2="30.48" width="0.1524" layer="91"/>
-<label x="-193.548" y="17.78" size="1.778" layer="95"/>
-<pinref part="COOLANTTEMP" gate="G$1" pin="K_GREEN"/>
-<wire x1="-193.04" y1="12.7" x2="-190.5" y2="12.7" width="0.1524" layer="91"/>
+<label x="-208.788" y="17.78" size="1.778" layer="95"/>
+<pinref part="COOLANTTEMP" gate="G$1" pin="K_BLUE"/>
+<wire x1="-205.74" y1="30.48" x2="-205.74" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="-30.48" x2="-195.58" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="33" class="0">
@@ -6504,10 +6505,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="132.08" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-165.608" y="17.78" size="1.778" layer="95"/>
-<pinref part="OILPRES" gate="G$1" pin="K_BLUE"/>
-<wire x1="-162.56" y1="30.48" x2="-162.56" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-162.56" y1="-30.48" x2="-152.4" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="12.7" x2="-147.32" y2="30.48" width="0.1524" layer="91"/>
+<label x="-150.368" y="17.78" size="1.778" layer="95"/>
+<pinref part="OILPRES" gate="G$1" pin="K_GREEN"/>
+<wire x1="-149.86" y1="12.7" x2="-147.32" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="34" class="0">
@@ -6529,10 +6530,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-147.32" y1="12.7" x2="-147.32" y2="30.48" width="0.1524" layer="91"/>
-<label x="-150.368" y="17.78" size="1.778" layer="95"/>
-<pinref part="OILPRES" gate="G$1" pin="K_GREEN"/>
-<wire x1="-149.86" y1="12.7" x2="-147.32" y2="12.7" width="0.1524" layer="91"/>
+<label x="-165.608" y="17.78" size="1.778" layer="95"/>
+<pinref part="OILPRES" gate="G$1" pin="K_BLUE"/>
+<wire x1="-162.56" y1="30.48" x2="-162.56" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="-30.48" x2="-152.4" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="36" class="0">
@@ -6541,10 +6542,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-119.888" y="17.78" size="1.778" layer="95"/>
-<pinref part="OILTEMP" gate="G$1" pin="K_BLUE"/>
-<wire x1="-116.84" y1="30.48" x2="-116.84" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-116.84" y1="-30.48" x2="-106.68" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="12.7" x2="-101.6" y2="30.48" width="0.1524" layer="91"/>
+<label x="-104.648" y="17.78" size="1.778" layer="95"/>
+<pinref part="OILTEMP" gate="G$1" pin="K_GREEN"/>
+<wire x1="-104.14" y1="12.7" x2="-101.6" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="37" class="0">
@@ -6565,10 +6566,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-101.6" y1="12.7" x2="-101.6" y2="30.48" width="0.1524" layer="91"/>
-<label x="-104.648" y="17.78" size="1.778" layer="95"/>
-<pinref part="OILTEMP" gate="G$1" pin="K_GREEN"/>
-<wire x1="-104.14" y1="12.7" x2="-101.6" y2="12.7" width="0.1524" layer="91"/>
+<label x="-119.888" y="17.78" size="1.778" layer="95"/>
+<pinref part="OILTEMP" gate="G$1" pin="K_BLUE"/>
+<wire x1="-116.84" y1="30.48" x2="-116.84" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="-30.48" x2="-106.68" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="39" class="0">
@@ -6577,10 +6578,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-69.088" y="17.78" size="1.778" layer="95"/>
-<pinref part="SPARE1" gate="G$1" pin="K_BLUE"/>
-<wire x1="-66.04" y1="30.48" x2="-66.04" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-30.48" x2="-55.88" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="12.7" x2="-50.8" y2="30.48" width="0.1524" layer="91"/>
+<label x="-53.848" y="17.78" size="1.778" layer="95"/>
+<pinref part="SPARE1" gate="G$1" pin="K_GREEN"/>
+<wire x1="-53.34" y1="12.7" x2="-50.8" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="40" class="0">
@@ -6601,10 +6602,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-50.8" y1="12.7" x2="-50.8" y2="30.48" width="0.1524" layer="91"/>
-<label x="-53.848" y="17.78" size="1.778" layer="95"/>
-<pinref part="SPARE1" gate="G$1" pin="K_GREEN"/>
-<wire x1="-53.34" y1="12.7" x2="-50.8" y2="12.7" width="0.1524" layer="91"/>
+<label x="-69.088" y="17.78" size="1.778" layer="95"/>
+<pinref part="SPARE1" gate="G$1" pin="K_BLUE"/>
+<wire x1="-66.04" y1="30.48" x2="-66.04" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-30.48" x2="-55.88" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="42" class="0">
@@ -6613,10 +6614,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-18.796" y="17.78" size="1.778" layer="95"/>
-<pinref part="SPARE2" gate="G$1" pin="K_BLUE"/>
-<wire x1="-15.24" y1="30.48" x2="-15.24" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="-30.48" x2="-5.08" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="0" y1="12.7" x2="0" y2="30.48" width="0.1524" layer="91"/>
+<label x="-3.048" y="17.78" size="1.778" layer="95"/>
+<pinref part="SPARE2" gate="G$1" pin="K_GREEN"/>
+<wire x1="-2.54" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="43" class="0">
@@ -6637,10 +6638,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="0" y1="12.7" x2="0" y2="30.48" width="0.1524" layer="91"/>
-<label x="-3.048" y="17.78" size="1.778" layer="95"/>
-<pinref part="SPARE2" gate="G$1" pin="K_GREEN"/>
-<wire x1="-2.54" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
+<label x="-18.796" y="17.78" size="1.778" layer="95"/>
+<pinref part="SPARE2" gate="G$1" pin="K_BLUE"/>
+<wire x1="-15.24" y1="30.48" x2="-15.24" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-30.48" x2="-5.08" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="45" class="0">
@@ -6649,10 +6650,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="27.432" y="17.78" size="1.778" layer="95"/>
-<pinref part="DAQ" gate="G$1" pin="K_BLUE"/>
-<wire x1="30.48" y1="30.48" x2="30.48" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-30.48" x2="40.64" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="12.7" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<label x="42.672" y="17.78" size="1.778" layer="95"/>
+<pinref part="DAQ" gate="G$1" pin="K_GREEN"/>
+<wire x1="43.18" y1="12.7" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="46" class="0">
@@ -6673,10 +6674,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="45.72" y1="12.7" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
-<label x="42.672" y="17.78" size="1.778" layer="95"/>
-<pinref part="DAQ" gate="G$1" pin="K_GREEN"/>
-<wire x1="43.18" y1="12.7" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
+<label x="27.432" y="17.78" size="1.778" layer="95"/>
+<pinref part="DAQ" gate="G$1" pin="K_BLUE"/>
+<wire x1="30.48" y1="30.48" x2="30.48" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-30.48" x2="40.64" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="48" class="0">
@@ -6712,10 +6713,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="177.8" x2="58.42" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-434.34" y1="12.7" x2="-434.34" y2="30.48" width="0.1524" layer="91"/>
-<label x="-437.388" y="17.78" size="1.778" layer="95"/>
-<pinref part="BRAKETEMP" gate="G$1" pin="K_GREEN"/>
-<wire x1="-436.88" y1="12.7" x2="-434.34" y2="12.7" width="0.1524" layer="91"/>
+<label x="-452.628" y="17.78" size="1.778" layer="95"/>
+<wire x1="-449.58" y1="30.48" x2="-449.58" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="BRAKETEMP" gate="G$1" pin="K_BLUE"/>
+<wire x1="-449.58" y1="-30.48" x2="-439.42" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="16" class="0">
@@ -6724,10 +6725,11 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="175.26" x2="58.42" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-401.828" y="17.78" size="1.778" layer="95"/>
-<wire x1="-398.78" y1="30.48" x2="-398.78" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="SHOCKPOT" gate="G$1" pin="K_BLUE"/>
-<wire x1="-398.78" y1="-30.48" x2="-388.62" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-383.54" y1="12.7" x2="-383.54" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-383.54" y1="30.48" x2="-381" y2="30.48" width="0.1524" layer="91"/>
+<label x="-386.588" y="17.78" size="1.778" layer="95"/>
+<pinref part="SHOCKPOT" gate="G$1" pin="K_GREEN"/>
+<wire x1="-386.08" y1="12.7" x2="-383.54" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="17" class="0">
@@ -6748,11 +6750,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-383.54" y1="12.7" x2="-383.54" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-383.54" y1="30.48" x2="-381" y2="30.48" width="0.1524" layer="91"/>
-<label x="-386.588" y="17.78" size="1.778" layer="95"/>
-<pinref part="SHOCKPOT" gate="G$1" pin="K_GREEN"/>
-<wire x1="-386.08" y1="12.7" x2="-383.54" y2="12.7" width="0.1524" layer="91"/>
+<label x="-401.828" y="17.78" size="1.778" layer="95"/>
+<wire x1="-398.78" y1="30.48" x2="-398.78" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="SHOCKPOT" gate="G$1" pin="K_BLUE"/>
+<wire x1="-398.78" y1="-30.48" x2="-388.62" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="19" class="0">
@@ -6761,10 +6762,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="48.26" y1="167.64" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-351.028" y="17.78" size="1.778" layer="95"/>
-<wire x1="-347.98" y1="30.48" x2="-347.98" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="BRAKEPRES" gate="G$1" pin="K_BLUE"/>
-<wire x1="-347.98" y1="-30.48" x2="-337.82" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-332.74" y1="12.7" x2="-332.74" y2="30.48" width="0.1524" layer="91"/>
+<label x="-335.788" y="17.78" size="1.778" layer="95"/>
+<pinref part="BRAKEPRES" gate="G$1" pin="K_GREEN"/>
+<wire x1="-335.28" y1="12.7" x2="-332.74" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="4" class="0">
@@ -6773,10 +6774,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="12.7" y1="114.3" x2="0" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-552.704" y="20.32" size="1.778" layer="95"/>
-<pinref part="DASH" gate="G$1" pin="K_BLUE"/>
-<wire x1="-551.18" y1="30.48" x2="-551.18" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-551.18" y1="-30.48" x2="-541.02" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-434.34" y1="12.7" x2="-434.34" y2="30.48" width="0.1524" layer="91"/>
+<label x="-436.118" y="17.78" size="1.778" layer="95"/>
+<pinref part="BRAKETEMP" gate="G$1" pin="K_GREEN"/>
+<wire x1="-436.88" y1="12.7" x2="-434.34" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5" class="0">
@@ -6785,10 +6786,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="12.7" y1="111.76" x2="0" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-546.1" y1="12.7" x2="-546.1" y2="30.48" width="0.1524" layer="91"/>
-<label x="-547.624" y="20.32" size="1.778" layer="95"/>
-<pinref part="DASH" gate="G$1" pin="K_RED"/>
-<wire x1="-546.1" y1="12.7" x2="-541.02" y2="12.7" width="0.1524" layer="91"/>
+<label x="-552.704" y="20.32" size="1.778" layer="95"/>
+<pinref part="DASH" gate="G$1" pin="K_BLUE"/>
+<wire x1="-551.18" y1="30.48" x2="-551.18" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-551.18" y1="-30.48" x2="-541.02" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="6" class="0">
@@ -6797,10 +6798,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="12.7" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-535.94" y1="12.7" x2="-535.94" y2="30.48" width="0.1524" layer="91"/>
-<label x="-537.718" y="20.32" size="1.778" layer="95"/>
-<pinref part="DASH" gate="G$1" pin="K_GREEN"/>
-<wire x1="-538.48" y1="12.7" x2="-535.94" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-546.1" y1="12.7" x2="-546.1" y2="30.48" width="0.1524" layer="91"/>
+<label x="-547.624" y="20.32" size="1.778" layer="95"/>
+<pinref part="DASH" gate="G$1" pin="K_RED"/>
+<wire x1="-546.1" y1="12.7" x2="-541.02" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="7" class="0">
@@ -6809,10 +6810,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="12.7" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-501.904" y="17.78" size="1.778" layer="95"/>
-<wire x1="-500.38" y1="30.48" x2="-500.38" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="LAMBDAS" gate="G$1" pin="K_BLUE"/>
-<wire x1="-500.38" y1="-30.48" x2="-490.22" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-535.94" y1="12.7" x2="-535.94" y2="30.48" width="0.1524" layer="91"/>
+<label x="-537.718" y="20.32" size="1.778" layer="95"/>
+<pinref part="DASH" gate="G$1" pin="K_GREEN"/>
+<wire x1="-538.48" y1="12.7" x2="-535.94" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8" class="0">
@@ -6821,10 +6822,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="12.7" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-495.3" y1="12.7" x2="-495.3" y2="30.48" width="0.1524" layer="91"/>
-<label x="-496.824" y="17.78" size="1.778" layer="95"/>
-<pinref part="LAMBDAS" gate="G$1" pin="K_RED"/>
-<wire x1="-495.3" y1="12.7" x2="-490.22" y2="12.7" width="0.1524" layer="91"/>
+<label x="-501.904" y="17.78" size="1.778" layer="95"/>
+<wire x1="-500.38" y1="30.48" x2="-500.38" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="LAMBDAS" gate="G$1" pin="K_BLUE"/>
+<wire x1="-500.38" y1="-30.48" x2="-490.22" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="9" class="0">
@@ -6833,10 +6834,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="12.7" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-485.14" y1="12.7" x2="-485.14" y2="30.48" width="0.1524" layer="91"/>
-<label x="-486.664" y="18.034" size="1.778" layer="95"/>
-<pinref part="LAMBDAS" gate="G$1" pin="K_GREEN"/>
-<wire x1="-487.68" y1="12.7" x2="-485.14" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-495.3" y1="12.7" x2="-495.3" y2="30.48" width="0.1524" layer="91"/>
+<label x="-496.824" y="17.78" size="1.778" layer="95"/>
+<pinref part="LAMBDAS" gate="G$1" pin="K_RED"/>
+<wire x1="-495.3" y1="12.7" x2="-490.22" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="10" class="0">
@@ -6845,10 +6846,10 @@ To specify the capacitance:&lt;br&gt;
 <wire x1="12.7" y1="99.06" x2="0" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-452.628" y="17.78" size="1.778" layer="95"/>
-<wire x1="-449.58" y1="30.48" x2="-449.58" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="BRAKETEMP" gate="G$1" pin="K_BLUE"/>
-<wire x1="-449.58" y1="-30.48" x2="-439.42" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-485.14" y1="12.7" x2="-485.14" y2="30.48" width="0.1524" layer="91"/>
+<label x="-488.188" y="18.034" size="1.778" layer="95"/>
+<pinref part="LAMBDAS" gate="G$1" pin="K_GREEN"/>
+<wire x1="-487.68" y1="12.7" x2="-485.14" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
