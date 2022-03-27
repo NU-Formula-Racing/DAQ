@@ -172,7 +172,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1MzQyNjY" projecturn="a.YnVzaW5lc3M6bXl1MzQyNjYjRDIwMjIwMjIzNTAwNDUzMjU2" f3durn="urn:adsk.wipprod:dm.lineage:FMcqVSMYRCmpi5tbIMdzeQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="e3f57fa6-5376-4ba8-b233-ebd3ca9cdc54" lastsyncedrevisionid="e3f57fa6-5376-4ba8-b233-ebd3ca9cdc54" lastboardhashguid="9efa0032-7741-1f44-031c-f8bd4693b30a" lastpushedtime="2022-02-27T05:51:56Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1MzQyNjY" projecturn="a.YnVzaW5lc3M6bXl1MzQyNjYjRDIwMjIwMjIzNTAwNDUzMjU2" f3durn="urn:adsk.wipprod:dm.lineage:_tmelgeETl23drs82XyA4Q" pcbguid="019ed42a-e424-40a3-8cc5-4df9ca5afb50" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="cc82ade2-f74c-426f-ad27-d0c8a40b46b7" lastsyncedrevisionid="cc82ade2-f74c-426f-ad27-d0c8a40b46b7" lastboardhashguid="4766370a-24b0-e1c7-ca31-f5eecda2485e" lastpushedtime="2022-03-27T22:19:28Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-13.97" y1="53.34" x2="190.48" y2="53.34" width="0" layer="20"/>
 <wire x1="190.48" y1="53.34" x2="190.48" y2="141.91" width="0" layer="20"/>

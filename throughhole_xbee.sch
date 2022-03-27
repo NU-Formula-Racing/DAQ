@@ -8679,6 +8679,8 @@ on pin 5.</text>
 </sheet>
 </sheets>
 <errors>
+<approved hash="202,1,-322.58,223.52,XB1,!RESET,,,,"/>
+<approved hash="202,1,-322.58,175.26,XB1,VREF,,,,"/>
 <approved hash="208,1,-368.3,170.18,3.3V,out,,,,"/>
 <approved hash="208,2,22.86,40.64,3.3V,sup,,,,"/>
 <approved hash="208,2,71.12,45.72,3.3V,sup,,,,"/>
