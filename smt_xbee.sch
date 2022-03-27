@@ -4753,7 +4753,7 @@ To specify the capacitance:&lt;br&gt;
 <part name="IC1" library="SamacSys_Parts" deviceset="P82B715D" device="" override_package3d_urn="urn:adsk.eagle:package:34325188/2" override_package_urn="urn:adsk.eagle:footprint:34325190/1"/>
 <part name="U1" library="XC6220B331MR-G" deviceset="XC6220B331MR-G" device="" override_package3d_urn="urn:adsk.eagle:package:34557894/2" override_package_urn="urn:adsk.eagle:footprint:34557895/1"/>
 <part name="J2" library="VR10S05" deviceset="VR10S05" device="" override_package3d_urn="urn:adsk.eagle:package:34567845/2" override_package_urn="urn:adsk.eagle:footprint:34567846/1"/>
-<part name="E*1" library="xbee3pro_smt" deviceset="XBEE3PRO_SMT" device=""/>
+<part name="E*1" library="xbee3pro_smt" deviceset="XBEE3PRO_SMT" device="" override_package3d_urn="urn:adsk.eagle:package:34970959/2" override_package_urn="urn:adsk.eagle:footprint:34970961/1"/>
 <part name="R1" library="1206res" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1kΩ"/>
 <part name="R2" library="1206res" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1kΩ"/>
 <part name="R3" library="1206res" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1kΩ"/>
