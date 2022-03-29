@@ -4717,7 +4717,7 @@ To specify the capacitance:&lt;br&gt;
 <part name="C33" library="1206cap" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1μF"/>
 <part name="C34" library="1206cap" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1μF"/>
 <part name="C35" library="1206cap" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1μF"/>
-<part name="XB1" library="XB3-24DMCM" deviceset="XBEE_MMT" device=""/>
+<part name="XB1" library="XB3-24DMCM" deviceset="XBEE_MMT" device="" override_package3d_urn="urn:adsk.eagle:package:35012099/2" override_package_urn="urn:adsk.eagle:footprint:35012100/1"/>
 <part name="R7" library="1206res" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10kΩ"/>
 <part name="R8" library="1206res" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10kΩ"/>
 <part name="C3" library="1206cap" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="8.2pF"/>
