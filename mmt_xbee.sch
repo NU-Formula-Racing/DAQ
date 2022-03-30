@@ -3582,12 +3582,6 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/3/P82B715D.pdf"&
 <wire x1="-0.8128" y1="1.4478" x2="-0.8128" y2="-1.4478" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0.1524" layer="51" curve="-180"/>
 <text x="-1.143" y="0.1524" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<polygon width="0.0254" layer="41">
-<vertex x="-2.3876" y="-2.0828"/>
-<vertex x="-2.3876" y="2.0828"/>
-<vertex x="2.3876" y="2.0828"/>
-<vertex x="2.3876" y="-2.0828"/>
-</polygon>
 <wire x1="-0.8128" y1="0" x2="-0.8128" y2="3.3528" width="0.1524" layer="47"/>
 <wire x1="-0.8128" y1="3.3528" x2="-0.8128" y2="3.7338" width="0.1524" layer="47"/>
 <wire x1="0.8128" y1="0" x2="0.8128" y2="3.3528" width="0.1524" layer="47"/>
@@ -4028,12 +4022,6 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/3/P82B715D.pdf"&
 <pad name="1" x="0" y="0" drill="0.9906" diameter="1.4986"/>
 <pad name="2" x="2.54" y="0" drill="0.9906" diameter="1.4986"/>
 <pad name="3" x="5.08" y="0" drill="0.9906" diameter="1.4986"/>
-<polygon width="0.0254" layer="41">
-<vertex x="11.5189" y="5.475"/>
-<vertex x="11.5189" y="-8.876"/>
-<vertex x="-6.4389" y="-8.876"/>
-<vertex x="-6.4389" y="5.475"/>
-</polygon>
 <wire x1="0" y1="0" x2="0" y2="4.4704" width="0.1524" layer="47"/>
 <wire x1="0" y1="4.4704" x2="0" y2="4.8514" width="0.1524" layer="47"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="4.4704" width="0.1524" layer="47"/>
@@ -4614,8 +4602,8 @@ To specify the capacitance:&lt;br&gt;
 <part name="U6" library="ADS1119IPWT" deviceset="ADS1119IPWT" device="" override_package3d_urn="urn:adsk.eagle:package:34326477/2" override_package_urn="urn:adsk.eagle:footprint:34326478/1"/>
 <part name="U7" library="ADS1119IPWT" deviceset="ADS1119IPWT" device="" override_package3d_urn="urn:adsk.eagle:package:34326493/2" override_package_urn="urn:adsk.eagle:footprint:34326494/1"/>
 <part name="IC1" library="SamacSys_Parts" deviceset="P82B715D" device="" override_package3d_urn="urn:adsk.eagle:package:34325188/2" override_package_urn="urn:adsk.eagle:footprint:34325190/1"/>
-<part name="U1" library="XC6220B331MR-G" deviceset="XC6220B331MR-G" device="" override_package3d_urn="urn:adsk.eagle:package:34557894/2" override_package_urn="urn:adsk.eagle:footprint:34557895/1"/>
-<part name="J2" library="VR10S05" deviceset="VR10S05" device="" override_package3d_urn="urn:adsk.eagle:package:34567845/2" override_package_urn="urn:adsk.eagle:footprint:34567846/1"/>
+<part name="U1" library="XC6220B331MR-G" deviceset="XC6220B331MR-G" device="" override_package3d_urn="urn:adsk.eagle:package:34557894/2" override_package_urn="urn:adsk.eagle:footprint:34557895/1" override_locally_modified="yes"/>
+<part name="J2" library="VR10S05" deviceset="VR10S05" device="" override_package3d_urn="urn:adsk.eagle:package:34567845/2" override_package_urn="urn:adsk.eagle:footprint:34567846/1" override_locally_modified="yes"/>
 <part name="R1" library="1206res" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1kΩ"/>
 <part name="R2" library="1206res" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1kΩ"/>
 <part name="R3" library="1206res" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1kΩ"/>
